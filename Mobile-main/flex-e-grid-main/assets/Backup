@@ -1,9 +1,23 @@
-    <nav class="menu-lateral">
-        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
-        <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
-    </nav>
+.menu-lateral__link--inicio::before {
+    content: "\e902";
+}
+
+.menu-lateral__link--videos::before {
+    content: "\e90e";
+}
+
+.menu-lateral__link--picos::before {
+    content: "\e909";
+}
+
+.menu-lateral__link--integrantes::before {
+    content: "\e903";
+}
+
+.menu-lateral__link--camisas::before {
+    content: "\e900";
+}
+
+.menu-lateral__link--pinturas::before {
+    content: "\e90a";
+}
